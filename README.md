@@ -5,6 +5,7 @@ First clone this project or this link - https://github.com/abdullahal5/job-task.
 ```bash
 git clone https://github.com/abdullahal5/job-task.git
 ```
+
 ```bash
 cd job-task
 ```
@@ -25,3 +26,4 @@ pnpm dev
 # or
 bun dev
 ```
+Project will be run on localhost:3000
