@@ -1,11 +1,11 @@
-import Sidebar2 from "./components/Sidebar2";
+import Sidebar2 from "./components/sidebar/dekstopSlider";
 import Layout from "./components/sidebar/Layout";
 // import Sidebar from "./components/sidebar/Sidebar";
 
 const page = () => {
   return (
     <div>
-      <Layout/>
+      <Layout />
     </div>
   );
 };

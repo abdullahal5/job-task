@@ -7,7 +7,7 @@ import { IoShareSocial } from "react-icons/io5";
 const Card = () => {
   return (
     <div>
-      <div className="w-[550px] h-56 border bg-white px-3 py-1 rounded-lg shadow-xl">
+      <div className="lg:w-[550px] md:w-[400px] lg:h-56 md:h-auto h-auto border bg-white px-3 py-2 rounded-lg shadow-xl">
         <div className="flex items-start">
           <div className="w-[12%]">
             <Image
@@ -33,9 +33,8 @@ const Card = () => {
             <div>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apus;s st
-                dummy text industry. Lorem Ipsum has been the industry&apus;
-                
+                industry. Lorem Ipsum has been the industry&apus;s st dummy text
+                industry. Lorem Ipsum has been the industry&apus;
               </p>
             </div>
             <div className="py-4 flex items-center justify-around">

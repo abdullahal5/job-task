@@ -8,50 +8,12 @@ import { FaUserCircle } from "react-icons/fa";
 import { IoNotifications } from "react-icons/io5";
 import { FaAngleLeft } from "react-icons/fa6";
 
-const menu = [
-  {
-    id: 1,
-    title: "Disscussion Form",
-    icon: MdOutlineMessage,
-    link: "/disscussion",
-  },
-  {
-    id: 2,
-    title: "Market Stories",
-    icon: FaCommentDollar,
-    link: "/market",
-  },
-  {
-    id: 3,
-    title: "Sentiment",
-  },
-  {
-    id: 4,
-    title: "Market",
-  },
-  {
-    id: 5,
-    title: "Sector",
-  },
-  {
-    id: 6,
-    title: "Watchlist",
-  },
-  {
-    id: 7,
-    title: "Events",
-  },
-  {
-    id: 8,
-    title: "News/Interview",
-  },
-];
 
 const Sidebar2 = () => {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
-    <>
+    <div className="lg:block md:block hidden">
       <div
         className={`fixed bg-gray-700 top-1/2 text-white py-10 rounded-md z-50 hover:bg-gray-500 ${
           isOpen ? "left-[300px]" : "left-3"
@@ -62,7 +24,7 @@ const Sidebar2 = () => {
       </div>
       {isOpen && (
         <div
-          className={`overflow-y-hidden h-full left-0 w-80 transition-transform duration-300 bg-[#1F2544] flex-shrink-0 ${
+          className={`overflow-y-hidden h-screen left-0 w-80 transition-transform duration-300 bg-[#1F2544] flex-shrink-0 ${
             isOpen ? "w-72" : "w-0"
           }`}
         >
@@ -108,7 +70,7 @@ const Sidebar2 = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
